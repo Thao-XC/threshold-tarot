@@ -746,7 +746,7 @@ function composeReading(){
 /* ============ Optional: free Gemini AI reading (via Cloudflare Worker proxy) ============ */
 // Paste your deployed Worker URL below, e.g. "https://tarot-api-proxy.yourname.workers.dev"
 // Leave blank to keep using Thao's built-in local reading — the site works great either way.
-const WORKER_URL = "";
+const WORKER_URL = "https://tarot-reading.thao-tran.workers.dev/";
 
 function buildGeminiPrompt(){
   const cardLines = drawn.map(d=>{
